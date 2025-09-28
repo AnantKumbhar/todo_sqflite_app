@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
       title: 'Todo (sqflite)',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        //textTheme: GoogleFonts.poppinsTextTheme(), // optional
+        textTheme: GoogleFonts.poppinsTextTheme(), // optional
       ),
       home: const HomeScreen(),
     );
